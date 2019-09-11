@@ -1,0 +1,52 @@
+body {
+  background: #333;
+  color: #fff
+}
+
+.navbar {
+  border-bottom: #008ede solid 3px;
+  opacity: 0.8;
+}
+
+.home-inner .fas, #explore-section .fas {
+  background: #fff;
+  border-radius: 5px;
+  color: #008ede;
+  padding: 3px
+}
+
+#home .home-inner {
+  padding-top: 100px;
+  opacity: .8;
+}
+
+#home {
+  background: url(../img/share-section1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed
+}
+
+#home .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#explore-section .fas, #share-section .fas {
+  background: #0c0c0c;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px
+}
+
+ #create-section .fas{
+   background: #fff;
+  border-radius: 5px;
+  color: #008ede;
+  padding: 5px
+ }
